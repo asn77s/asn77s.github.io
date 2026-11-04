@@ -11,12 +11,12 @@ Pages:
 - Contact: public email link.
 
 ## Design
-- Use a white background, dark gray text, and blue accents.
-- Use Arial with a sans-serif fallback.
+- Use Adrian’s favorite colors: a black background, light text, and red accents.
+- Use Trebuchet MS, Segoe UI, and a sans-serif fallback.
 - Keep the layout simple, clean, and easy to navigate.
 - Make the pages work on phones and computers.
 - Share styles.css and script.js across all five pages.
-- Provide an accessible mobile menu and optional dark mode.
+- Provide an accessible mobile menu and optional light mode; black and red is the default.
 
 ## Rules
 - Use plain HTML, CSS, and JavaScript only.

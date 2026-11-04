@@ -24,6 +24,6 @@ navigation.addEventListener('keydown', (event) => {
 const themeButton = document.querySelector('#theme-toggle');
 themeButton.hidden = false;
 themeButton.addEventListener('click', () => {
-  const darkMode = document.body.classList.toggle('dark');
-  themeButton.setAttribute('aria-pressed', String(darkMode));
+  const lightMode = document.body.classList.toggle('light');
+  themeButton.setAttribute('aria-pressed', String(lightMode));
 });
