@@ -4,7 +4,7 @@
 This is Adrian Nogueira's personal portfolio as an NJIT student.
 
 Pages:
-- Home: editorial hero, initials artwork, two featured projects, education, interests, and email.
+- Home: editorial hero, two featured projects, education, interests, and email.
 - About: my background, education, and interests.
 - Projects: Python Gradebook and Random Joke Fetcher with downloadable source and output/workflow images; awaiting a third real project.
 - Skills: beginner Python and GitHub experience.
@@ -14,7 +14,7 @@ Pages:
 - Use Adrian’s favorite colors: a black background, light text, and red accents.
 - Use Impact/Arial Narrow for bold uppercase display headings; Trebuchet MS/Segoe UI for body text.
 - Use an editorial black-and-red layout inspired by Adrian’s reference: oversized portfolio lettering, strong headings, project previews, and fine dividers.
-- Use initials artwork until Adrian supplies his own portrait; never use the reference person as Adrian.
+- Keep the hero free of the large initials graphic, as requested by Adrian.
 - Keep navigation clear and content grounded in Adrian’s actual experience.
 - Make the pages work on phones and computers.
 - Share styles.css and script.js across all five pages.
