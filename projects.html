@@ -19,7 +19,28 @@
 <a href="skills.html">Skills</a>
 <a href="contact.html">Contact</a></nav>
 </div></header>
-<main id="main" tabindex="-1"><h1>Projects</h1><section><h2>My work is taking shape</h2><p>I’m gathering coursework and project examples to share here. Check back as I add descriptions, screenshots, and links to my work.</p><p>For now, you can <a href="skills.html">read about the skills I’m learning</a>.</p></section></main>
+<main id="main" tabindex="-1">
+<h1>Projects</h1>
+<p class="lead">Small Python assignments that show what I’m learning.</p>
+<section class="project">
+<p class="eyebrow">Python · Coursework</p>
+<h2>Python Gradebook</h2>
+<p>A program that stores names and numerical grades, converts each grade into a letter grade, and prints a personalized message. It uses a function, conditional statements, nested lists, and a loop.</p>
+<figure><img src="assets/gradebook-output.svg" width="760" height="260" alt="Actual program output: Student 1 receives A, Student 2 receives B, and Student 3 receives C."><figcaption>Actual output using fictional sample students and grades.</figcaption></figure>
+<h3>What I practiced</h3><p>Functions, if/elif/else conditions, list indexing, and loops. The original list was named student while the loop used students; using the same name fixes the error.</p>
+<a href="projects/gradebook.py" download>Download the Python gradebook</a>
+<p>Run with <code>python3 gradebook.py</code>. No extra packages are required.</p>
+</section>
+<section class="project">
+<p class="eyebrow">Python · API assignment</p>
+<h2>Random Joke Fetcher</h2>
+<p>A Python script that requests a random joke from the Official Joke API, prints its setup and punchline, and saves them to jokes.txt. It includes a timeout and handles request errors.</p>
+<figure><img src="assets/joke-workflow.svg" width="760" height="260" alt="Workflow: request a joke from the API, read the JSON response, then print and save the joke."><figcaption>A diagram of the program’s workflow, rather than a live API response.</figcaption></figure>
+<h3>What I practiced</h3><p>HTTP requests, reading JSON, writing text files, and handling network errors with try/except.</p>
+<a href="projects/joke_fetcher.py" download>Download the joke fetcher</a>
+<p>Install its dependency with <code>python3 -m pip install requests</code>, then run <code>python3 joke_fetcher.py</code>. Internet access is required. Each successful run replaces jokes.txt in the current folder.</p>
+</section>
+</main>
 <footer><p>Adrian Nogueira · Learning, building, and growing.</p><button id="theme-toggle" type="button" aria-pressed="false" hidden>Dark mode</button></footer>
 </body>
 </html>

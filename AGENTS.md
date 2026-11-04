@@ -6,7 +6,7 @@ This is Adrian Nogueira's personal portfolio as an NJIT student.
 Pages:
 - Home: a short introduction.
 - About: my background, education, and interests.
-- Projects: awaiting Adrian’s three real projects, screenshots, and links.
+- Projects: Python Gradebook and Random Joke Fetcher with downloadable source and output/workflow images; awaiting a third real project.
 - Skills: beginner Python and GitHub experience.
 - Contact: public email link.
 
