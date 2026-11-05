@@ -1,4 +1,6 @@
-"""A four-operation calculator. Run this file to see 10 + 10."""
+"""Interactive calculator. Run with Python 3; enter q to quit."""
+
+import math
 
 
 def calculator(n1, n2, op):
@@ -15,6 +17,36 @@ def calculator(n1, n2, op):
     return "You didn't enter a valid operation"
 
 
+def main():
+    print("Calculator — enter q at any prompt to quit.")
+    while True:
+        first = input("First number: ").strip()
+        if first.lower() == "q":
+            break
+        second = input("Second number: ").strip()
+        if second.lower() == "q":
+            break
+        op = input("Operation (+, -, *, /): ").strip()
+        if op.lower() == "q":
+            break
+        try:
+            n1, n2 = float(first), float(second)
+            if not math.isfinite(n1) or not math.isfinite(n2):
+                raise ValueError
+        except ValueError:
+            print("Enter two valid, finite numbers.")
+            continue
+        result = calculator(n1, n2, op)
+        if isinstance(result, (int, float)):
+            print(f"Result: {result:g}" if math.isfinite(result)
+                  else "Result is too large. Try smaller numbers.")
+        else:
+            print(result)
+    print("Goodbye!")
+
+
 if __name__ == "__main__":
-    result = calculator(10, 10, "+")
-    print(result)
+    try:
+        main()
+    except (EOFError, KeyboardInterrupt):
+        print("\nGoodbye!")
