@@ -16,6 +16,7 @@ Pages:
 - Use an editorial black-and-red layout inspired by Adrian’s reference: oversized portfolio lettering, strong headings, project previews, and fine dividers.
 - Keep the hero free of the large initials graphic, as requested by Adrian.
 - Keep navigation clear and content grounded in Adrian’s actual experience.
+- Write clear, confident, natural copy. Describe specific experience without exaggeration or self-deprecating language.
 - Make the pages work on phones and computers.
 - Share styles.css and script.js across all five pages.
 - Provide an accessible mobile menu and optional light mode; black and red is the default.

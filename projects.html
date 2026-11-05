@@ -21,7 +21,7 @@
 </div></header>
 <main id="main" tabindex="-1">
 <h1>Projects</h1>
-<p class="lead">Small Python assignments that show what I’m learning. Try the interactive browser demos below—no installation needed.</p>
+<p class="lead">Four Python projects exploring programming fundamentals, APIs, and user input. Try each browser demo or download the Python source.</p>
 <section class="project" id="gradebook">
 <p class="eyebrow">Python · Coursework</p>
 <h2>Python Gradebook</h2>
@@ -35,11 +35,11 @@
 <label>Numerical grade<input id="student-grade" type="number" min="0" max="100" step="any" required value="90"></label></div>
 <button type="submit">Check grade</button>
 </form>
-<p id="grade-result" class="demo-output" role="status">Your result will appear here.</p>
+<p id="grade-result" class="demo-output" role="status">Enter your values and select the button to see the result.</p>
 <p class="demo-note">A: 90–100 · B: 80–under 90 · C: 70–under 80 · D: 60–under 70 · F: under 60. Inputs stay in your browser.</p>
 <noscript>Enable JavaScript to try this demo, or download the Python source below.</noscript>
 </div>
-<h3>What I practiced</h3><p>Functions, if/elif/else conditions, list indexing, and loops. The original list was named student while the loop used students; using the same name fixes the error.</p>
+<h3>Skills practiced</h3><p>Functions, conditional statements, list indexing, and loops to turn numerical grades into personalized results.</p>
 <a href="projects/gradebook.py" download>Download the Python gradebook</a>
 <p>Run with <code>python3 gradebook.py</code>. No extra packages are required.</p>
 </section>
@@ -47,16 +47,16 @@
 <p class="eyebrow">Python · API assignment</p>
 <h2>Random Joke Fetcher</h2>
 <p>A Python script that requests a random joke from the Official Joke API, prints its setup and punchline, and saves them to jokes.txt. It includes a timeout and handles request errors.</p>
-<figure><img src="assets/joke-workflow.svg" width="760" height="260" alt="Workflow: request a joke from the API, read the JSON response, then print and save the joke."><figcaption>A diagram of the program’s workflow, rather than a live API response.</figcaption></figure>
+<figure><img src="assets/joke-workflow.svg" width="760" height="260" alt="Workflow: request a joke from the API, read the JSON response, then print and save the joke."><figcaption>How the program retrieves, displays, and saves a joke.</figcaption></figure>
 <div class="demo" aria-labelledby="joke-demo-title">
 <h3 id="joke-demo-title">Try the joke fetcher</h3>
 <p>This browser version requests a live joke from the same public API as the Python script. You can download the result as jokes.txt.</p>
 <button id="fetch-joke" type="button">Fetch a random joke</button>
-<p id="joke-result" class="demo-output" role="status">Your joke will appear here.</p>
+<p id="joke-result" class="demo-output" role="status">Fetch a joke to see the setup and punchline.</p>
 <button id="save-joke" type="button" disabled>Download jokes.txt</button>
 <noscript>Enable JavaScript to try this demo, or download the Python source below.</noscript>
 </div>
-<h3>What I practiced</h3><p>HTTP requests, reading JSON, writing text files, and handling network errors with try/except.</p>
+<h3>Skills practiced</h3><p>HTTP requests, reading JSON, writing text files, and handling network errors with try/except.</p>
 <a href="projects/joke_fetcher.py" download>Download the joke fetcher</a>
 <p>Install its dependency with <code>python3 -m pip install requests</code>, then run <code>python3 joke_fetcher.py</code>. Internet access is required. Each successful run replaces jokes.txt in the current folder.</p>
 </section>
@@ -66,16 +66,16 @@
 <figure><img src="assets/calculator-output.svg" width="760" height="260" loading="lazy" alt="Calculator sample: 10 plus 10 returns 20."><figcaption>Sample output from the downloadable Python program.</figcaption></figure>
 <div class="demo" aria-labelledby="calculator-title"><h3 id="calculator-title">Try the calculator</h3><p>A JavaScript version of the Python function.</p>
 <form id="calculator-demo"><div class="demo-fields"><label>First number<input id="calc-first" type="number" step="any" required value="10"></label><label>Second number<input id="calc-second" type="number" step="any" required value="10"></label><label>Operation<select id="calc-operation"><option value="+">Add (+)</option><option value="-">Subtract (−)</option><option value="*">Multiply (×)</option><option value="/">Divide (÷)</option></select></label></div><button type="submit">Calculate</button></form>
-<p id="calc-result" class="demo-output" role="status">Your result will appear here.</p><noscript>Enable JavaScript or download the Python program below.</noscript></div>
-<h3>What I practiced</h3><p>Function parameters, return values, arithmetic, and conditional statements.</p><a href="projects/calculator.py" download>Download the Python calculator</a><p>Run <code>python3 calculator.py</code>. Edit the function call to try other numbers and operations. No extra packages are required.</p></section>
+<p id="calc-result" class="demo-output" role="status">Enter your values and select the button to see the result.</p><noscript>Enable JavaScript or download the Python program below.</noscript></div>
+<h3>Skills practiced</h3><p>Function parameters, return values, arithmetic, and conditional statements.</p><a href="projects/calculator.py" download>Download the Python calculator</a><p>Run <code>python3 calculator.py</code>. Edit the function call to try other numbers and operations. No extra packages are required.</p></section>
 <section class="project" id="shopping-cart">
 <p class="eyebrow">Python · Shopping cart</p><h2>Shopping Cart</h2><p>A menu-based program that uses dictionaries to track products, prices, stock, and cart quantities. Add items, remove one unit at a time, and view the total cost.</p>
 <figure><img src="assets/shopping-cart-output.svg" width="760" height="260" loading="lazy" alt="Shopping cart sample: two boxes of Frosted Flakes cost 5 dollars 98 cents, one Eggs item costs 5 dollars 99 cents, totaling 11 dollars 97 cents."><figcaption>Sample output after adding two Frosted Flakes and one Eggs item.</figcaption></figure>
-<div class="demo" aria-labelledby="cart-title"><h3 id="cart-title">Try the shopping cart</h3><p>This JavaScript demo starts with two of each product. Removing an item returns it to the shelf. This is a practice cart; no purchases are made.</p>
+<div class="demo" aria-labelledby="cart-title"><h3 id="cart-title">Try the shopping cart</h3><p>Try adding and removing products to see the total update. Each product starts with two units in stock. This demo does not process purchases.</p>
 <form id="cart-demo"><div class="demo-fields"><label>Product<select id="cart-product"><option value="0">Frosted Flakes — $2.99</option><option value="1">Eggs — $5.99</option><option value="2">sourdough loaf — $3.99</option></select></label></div><div class="demo-actions"><button type="submit">Add one</button><button id="cart-remove" type="button">Remove one</button><button id="cart-reset" type="button">Reset cart</button></div></form>
 <p id="cart-message" role="status">Choose a product to get started.</p><div id="cart-summary" class="demo-output" aria-live="polite"></div><noscript>Enable JavaScript or download the Python program below.</noscript></div>
-<h3>What I practiced</h3><p>Dictionaries, loops, user input, stock checks, and calculating totals. Prices are stored in cents to keep money calculations exact.</p><a href="projects/shopping_cart.py" download>Download the Python shopping cart</a><p>Run <code>python3 shopping_cart.py</code> and follow the menu. No extra packages are required.</p></section>
+<h3>Skills practiced</h3><p>Dictionaries, loops, user input, stock checks, and calculating totals. Prices are stored in cents to keep money calculations exact.</p><a href="projects/shopping_cart.py" download>Download the Python shopping cart</a><p>Run <code>python3 shopping_cart.py</code> and follow the menu. No extra packages are required.</p></section>
 </main>
-<footer><p>Adrian Nogueira · Learning, building, and growing.</p><button id="theme-toggle" type="button" aria-pressed="false" hidden>Light mode</button></footer>
+<footer><p>Adrian Nogueira · NJIT student portfolio</p><button id="theme-toggle" type="button" aria-pressed="false" hidden>Light mode</button></footer>
 </body>
 </html>
