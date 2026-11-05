@@ -21,12 +21,24 @@
 </div></header>
 <main id="main" tabindex="-1">
 <h1>Projects</h1>
-<p class="lead">Small Python assignments that show what I’m learning.</p>
+<p class="lead">Small Python assignments that show what I’m learning. Try the interactive browser demos below—no installation needed.</p>
 <section class="project" id="gradebook">
 <p class="eyebrow">Python · Coursework</p>
 <h2>Python Gradebook</h2>
 <p>A program that stores names and numerical grades, converts each grade into a letter grade, and prints a personalized message. It uses a function, conditional statements, nested lists, and a loop.</p>
 <figure><img src="assets/gradebook-output.svg" width="760" height="260" alt="Actual program output: Student 1 receives A, Student 2 receives B, and Student 3 receives C."><figcaption>Actual output using fictional sample students and grades.</figcaption></figure>
+<div class="demo" aria-labelledby="grade-demo-title">
+<h3 id="grade-demo-title">Try the gradebook</h3>
+<p>A JavaScript demo of the Python program’s grading rules. Enter a name and a score from 0 to 100.</p>
+<form id="grade-demo">
+<div class="demo-fields"><label>Name<input id="student-name" required maxlength="80" value="Student 1" autocomplete="off"></label>
+<label>Numerical grade<input id="student-grade" type="number" min="0" max="100" step="any" required value="90"></label></div>
+<button type="submit">Check grade</button>
+</form>
+<p id="grade-result" class="demo-output" role="status">Your result will appear here.</p>
+<p class="demo-note">A: 90–100 · B: 80–under 90 · C: 70–under 80 · D: 60–under 70 · F: under 60. Inputs stay in your browser.</p>
+<noscript>Enable JavaScript to try this demo, or download the Python source below.</noscript>
+</div>
 <h3>What I practiced</h3><p>Functions, if/elif/else conditions, list indexing, and loops. The original list was named student while the loop used students; using the same name fixes the error.</p>
 <a href="projects/gradebook.py" download>Download the Python gradebook</a>
 <p>Run with <code>python3 gradebook.py</code>. No extra packages are required.</p>
@@ -36,6 +48,14 @@
 <h2>Random Joke Fetcher</h2>
 <p>A Python script that requests a random joke from the Official Joke API, prints its setup and punchline, and saves them to jokes.txt. It includes a timeout and handles request errors.</p>
 <figure><img src="assets/joke-workflow.svg" width="760" height="260" alt="Workflow: request a joke from the API, read the JSON response, then print and save the joke."><figcaption>A diagram of the program’s workflow, rather than a live API response.</figcaption></figure>
+<div class="demo" aria-labelledby="joke-demo-title">
+<h3 id="joke-demo-title">Try the joke fetcher</h3>
+<p>This browser version requests a live joke from the same public API as the Python script. You can download the result as jokes.txt.</p>
+<button id="fetch-joke" type="button">Fetch a random joke</button>
+<p id="joke-result" class="demo-output" role="status">Your joke will appear here.</p>
+<button id="save-joke" type="button" disabled>Download jokes.txt</button>
+<noscript>Enable JavaScript to try this demo, or download the Python source below.</noscript>
+</div>
 <h3>What I practiced</h3><p>HTTP requests, reading JSON, writing text files, and handling network errors with try/except.</p>
 <a href="projects/joke_fetcher.py" download>Download the joke fetcher</a>
 <p>Install its dependency with <code>python3 -m pip install requests</code>, then run <code>python3 joke_fetcher.py</code>. Internet access is required. Each successful run replaces jokes.txt in the current folder.</p>
