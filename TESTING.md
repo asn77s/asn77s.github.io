@@ -141,3 +141,15 @@ Documentation-only follow-up; website implementation files were not changed. The
 | Student report review | Adrian checks first-person statements and screenshot acceptability before submission. | Pending — assisted draft provided; no student review or presentation is claimed. |
 
 The original 57 live-test results remain historical November 4 results. Full live UI checks and Lighthouse were not rerun for this documentation-only task.
+
+## November 5 Puerto Rico gallery update
+
+Replaced the old Puerto Rico image with three personal photos supplied by Adrian. JPEGs are 248,643, 264,056, and 281,495 bytes; each retains its 768 × 1024 proportions and includes descriptive alt text. The old asset was removed.
+
+| Check | Steps and expected result | Actual result |
+| --- | --- | --- |
+| Local gallery layout | Open About at 390 px and 1366 px in headless Chrome. Load all gallery images and inspect screenshots. Expect stacked portraits on phone, three equal columns on laptop, and no overflow. | Pass — all three loaded, proportions preserved, document width matched viewport at both sizes; both screenshots visually inspected. |
+| Navigation and local assets | Verify all five About navigation targets and new photo files exist. | Pass — local targets exist and gallery images loaded. |
+| Deployment retest | After publishing, verify the new photos on the live About page. | Pending — local checks do not establish live deployment results. |
+
+Earlier Lighthouse scores and live About layout screenshots predate this gallery update. Fresh live layout and Lighthouse audits remain pending.

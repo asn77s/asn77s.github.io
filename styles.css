@@ -153,3 +153,12 @@ button:disabled { opacity: .55; cursor: not-allowed; }
 #project-download-dialog .demo-actions { align-items: center; gap: 1rem; }
 #project-download-dialog form { margin-top: 1.25rem; }
 #try-project-online { background: var(--accent); color: var(--bg); font-weight: bold; }
+
+/* Family roots photo gallery keeps each portrait visible in full. */
+.puerto-rico-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.75rem; }
+.puerto-rico-gallery figure { min-width: 0; margin: 0; }
+.puerto-rico-gallery img { width: 100%; height: auto; border: 1px solid var(--line); }
+.puerto-rico-gallery figcaption { padding-top: .15rem; }
+@media (max-width: 600px) {
+.puerto-rico-gallery { grid-template-columns: 1fr; gap: 1.75rem; max-width: 440px; margin-inline: auto; }
+}

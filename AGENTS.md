@@ -5,7 +5,7 @@ This is Adrian Nogueira's personal portfolio as an NJIT student.
 
 Pages:
 - Home: editorial hero, two featured projects, education, interests, and email.
-- About: my background with a Puerto Rico photo, education with a Kearny High School photo and DECA club membership, and interests with Giants, Knicks, and FC Barcelona logo cards.
+- About: my background with a three-photo Puerto Rico gallery (street, coast, and plaza), education with a Kearny High School photo and DECA club membership, and interests with Giants, Knicks, and FC Barcelona logo cards.
 - Projects: Python Gradebook, Random Joke Fetcher, Simple Calculator, and Shopping Cart, each with downloadable Python source, output/workflow images, and interactive JavaScript browser demos.
 - Mobile downloads offer an accessible choice to try the matching browser demo or download Python source, with a clear explanation that phones need a Python app to run .py files.
 - Downloads: calculator and gradebook accept user input in the terminal; all four projects include run instructions.
