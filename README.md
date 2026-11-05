@@ -27,6 +27,8 @@ JavaScript provides a mobile navigation menu, optional light mode, and four proj
 | Shopping Cart | Tracks 12 products, stock, quantities, and totals; random prices stay fixed until reset | Python 3 |
 | Random Joke Fetcher | Retrieves a joke from the Official Joke API, prints it, and saves `jokes.txt` | Python 3, `requests`, internet access |
 
+On phone-sized screens, tapping a Python download offers **Try in browser** or **Download Python source**. The first option focuses the matching demo; the second downloads code that requires Python and may open in a phone’s file viewer.
+
 The website demos run in JavaScript in the browser. The downloaded programs run in Python in a terminal; GitHub Pages does not execute Python. The cart is a practice project and does not accept payments. Browser demos do not save grades or carts between visits.
 
 ### Run the downloaded projects

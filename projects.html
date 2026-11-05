@@ -22,7 +22,7 @@
 <main id="main" tabindex="-1">
 <h1>Projects</h1>
 <p class="lead">Four Python projects exploring programming fundamentals, APIs, and user input. Try each browser demo or download the Python source.</p>
-<p>To use a download, install Python 3, open a terminal in your Downloads folder, and run the command listed below. On Windows, use <code>py</code> instead of <code>python3</code>. The browser demos work without installing Python.</p>
+<p>To use a download, install Python 3, open a terminal in your Downloads folder, and run the command listed below. On Windows, use <code>py</code> instead of <code>python3</code>. On a phone, use the browser demos below—no download or Python app is needed. Downloaded .py files contain source code and may open in your phone’s file viewer; they require Python to run.</p>
 <section class="project" id="gradebook">
 <p class="eyebrow">Python · Coursework</p>
 <h2>Python Gradebook</h2>
@@ -76,6 +76,12 @@
 <form id="cart-demo"><div class="demo-fields"><label>Product<select id="cart-product"></select></label></div><div class="demo-actions"><button type="submit">Add one</button><button id="cart-remove" type="button">Remove one</button><button id="cart-reset" type="button">Reset cart &amp; prices</button></div></form>
 <p id="cart-message" role="status">Choose a product to get started.</p><div id="cart-summary" class="demo-output" aria-live="polite"></div><noscript>Enable JavaScript or download the Python program below.</noscript></div>
 <h3>Skills practiced</h3><p>Dictionaries, loops, user input, stock checks, and calculating totals. Prices are stored in cents to keep money calculations exact.</p><a href="projects/shopping_cart.py" download>Download the Python shopping cart</a><p>Run <code>python3 shopping_cart.py</code> and follow the menu. No extra packages are required.</p></section>
+<dialog id="project-download-dialog" aria-labelledby="download-title" aria-describedby="download-help">
+<h2 id="download-title">Use this project</h2>
+<p id="download-help">On your phone, try the project right here in your browser. The Python download is source code, so your phone may open it in a file viewer. To run that file, you need a Python app or a computer with Python installed.</p>
+<div class="demo-actions"><button id="try-project-online" type="button" autofocus>Try in browser</button><a id="download-python-source" download>Download Python source (.py)</a></div>
+<form method="dialog"><button type="submit">Cancel</button></form>
+</dialog>
 </main>
 <footer><p>Adrian Nogueira · NJIT student portfolio</p><button id="theme-toggle" type="button" aria-pressed="false" hidden>Light mode</button></footer>
 </body>

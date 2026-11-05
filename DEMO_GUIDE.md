@@ -49,6 +49,10 @@ The form reads two numbers and the operation. It checks for finite numbers and r
 
 A `Blob` holds the joke text. A temporary object URL lets an anchor download that text as `jokes.txt`. The URL is revoked afterward to release the resource.
 
+### Phone download choice
+
+On phone-sized screens, a Python download link opens a native HTML dialog. It explains the difference between using the browser demo and downloading source code. Try in browser closes the dialog and focuses the first control in the matching demo. The source option keeps the Python file available. Native dialog behavior supports Escape, keeps focus inside while open, and restores focus when dismissed. Desktop downloads remain direct.
+
 ### Why one script works on every page
 
 Shared menu and theme controls exist on all five pages. Each project demo is wrapped in an `if` that checks whether its form or button exists. That prevents the script from trying to attach project listeners on pages without those controls.

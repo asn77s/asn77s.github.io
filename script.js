@@ -153,3 +153,30 @@ if (cartForm) {
   renderOptions();
   renderCart();
 }
+
+// Phones often preview Python files instead of running them.
+const downloadDialog = document.querySelector('#project-download-dialog');
+if (downloadDialog) {
+  let selectedDemo = null;
+  document.querySelectorAll('.project a[download]').forEach(link => {
+    link.addEventListener('click', event => {
+      if (!phoneScreen.matches || typeof downloadDialog.showModal !== 'function'
+          || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      const project = link.closest('.project');
+      selectedDemo = project.querySelector('.demo');
+      document.querySelector('#download-title').textContent = project.querySelector('h2').textContent;
+      document.querySelector('#download-python-source').href = link.getAttribute('href');
+      downloadDialog.showModal();
+    });
+  });
+  document.querySelector('#try-project-online').addEventListener('click', () => {
+    downloadDialog.close();
+    const control = selectedDemo.querySelector('input, select, button');
+    control.focus();
+    selectedDemo.scrollIntoView({ block: 'start' });
+  });
+  document.querySelector('#download-python-source').addEventListener('click', () => {
+    downloadDialog.close();
+  });
+}
