@@ -131,3 +131,5 @@ dl { margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: .7rem
 .demo-note { color: var(--muted); font-size: .85rem; }
 button:disabled { opacity: .55; cursor: not-allowed; }
 @media (max-width: 480px) { .demo-fields { grid-template-columns: 1fr; } }
+.demo select { width: 100%; min-width: 0; padding: .7rem; font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; }
+.demo-actions { display: flex; flex-wrap: wrap; gap: .6rem; }

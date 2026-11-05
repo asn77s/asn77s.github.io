@@ -83,3 +83,61 @@ if (jokeButton) {
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
 }
+
+const calculatorForm = document.querySelector('#calculator-demo');
+if (calculatorForm) {
+  calculatorForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const first = document.querySelector('#calc-first').valueAsNumber;
+    const second = document.querySelector('#calc-second').valueAsNumber;
+    const operation = document.querySelector('#calc-operation').value;
+    let result;
+    if (!Number.isFinite(first) || !Number.isFinite(second)) result = 'Enter two valid numbers.';
+    else if (operation === '/' && second === 0) result = 'Cannot divide by zero.';
+    else {
+      switch (operation) {
+        case '+': result = first + second; break;
+        case '-': result = first - second; break;
+        case '*': result = first * second; break;
+        case '/': result = first / second; break;
+        default: result = 'Choose a valid operation.';
+      }
+      if (typeof result === 'number' && !Number.isFinite(result)) result = 'Result is too large. Try smaller numbers.';
+    }
+    document.querySelector('#calc-result').textContent = String(result);
+  });
+}
+
+const cartForm = document.querySelector('#cart-demo');
+if (cartForm) {
+  const products = [
+    { name: 'Frosted Flakes', price: 299, quantity: 0 },
+    { name: 'Eggs', price: 599, quantity: 0 },
+    { name: 'sourdough loaf', price: 399, quantity: 0 }
+  ];
+  const message = document.querySelector('#cart-message');
+  function renderCart() {
+    const lines = products.map(item => `${item.name}: ${item.quantity} in cart · ${2 - item.quantity} on shelf`);
+    const total = products.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    document.querySelector('#cart-summary').textContent = `${lines.join('\n')}\n\nTotal: $${(total / 100).toFixed(2)}`;
+  }
+  function changeCart(amount) {
+    const item = products[Number(document.querySelector('#cart-product').value)];
+    if (!item) return;
+    if (amount === 1 && item.quantity === 2) message.textContent = `${item.name} is out of stock.`;
+    else if (amount === -1 && item.quantity === 0) message.textContent = `${item.name} is not in your cart.`;
+    else {
+      item.quantity += amount;
+      message.textContent = `${amount === 1 ? 'Added' : 'Removed'} one ${item.name}.`;
+      renderCart();
+    }
+  }
+  cartForm.addEventListener('submit', event => { event.preventDefault(); changeCart(1); });
+  document.querySelector('#cart-remove').addEventListener('click', () => changeCart(-1));
+  document.querySelector('#cart-reset').addEventListener('click', () => {
+    products.forEach(item => { item.quantity = 0; });
+    message.textContent = 'Cart reset. All products are back on the shelf.';
+    renderCart();
+  });
+  renderCart();
+}
