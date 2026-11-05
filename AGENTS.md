@@ -31,6 +31,7 @@ Pages:
 - Use semantic HTML and one h1 per page.
 - Keep images under 500 KB and provide descriptive alt text.
 - Check navigation links and page layout after changes.
+- Maintain TESTING.md with live-site test steps, expected and actual results, and failure/retest history. Keep unexecuted checks pending; record Lighthouse scores separately for every page.
 
 ## Git
 - Commit after each completed task with a clear message.
