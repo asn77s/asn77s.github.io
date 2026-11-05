@@ -16,7 +16,7 @@ A personal portfolio for Adrian Nogueira, a first-year NJIT student interested i
 
 The default design uses a black background, light text, and red accents. Impact/Arial Narrow display headings and Trebuchet MS/Segoe UI body text are shared across the pages. CSS media queries adapt the layout to phones and laptops.
 
-JavaScript provides a mobile navigation menu, optional light mode, and four project demos. The theme choice is saved in browser storage across pages and visits until you change it. The menu supports Escape to close and restores focus to its button. Pages include skip links, visible keyboard focus, labeled inputs, descriptive image text, and status messages for demo results.
+JavaScript provides a mobile navigation menu, optional light mode, and four project demos. The theme choice is saved in browser storage across pages and visits until you change it. All pages use the same versioned script URL to avoid loading the earlier cached theme behavior. The menu supports Escape to close and restores focus to its button. Pages include skip links, visible keyboard focus, labeled inputs, descriptive image text, and status messages for demo results.
 
 ## Projects
 
