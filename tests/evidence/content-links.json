@@ -1,0 +1,100 @@
+[
+  {
+    "page": "index.html",
+    "href": "index.html",
+    "text": "Adrian NogueiraStudent portfolio",
+    "url": "https://asn77s.github.io/index.html",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "href": "about.html",
+    "text": "More about me ↗",
+    "url": "https://asn77s.github.io/about.html",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "href": "projects.html",
+    "text": "All project details ↗",
+    "url": "https://asn77s.github.io/projects.html",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "href": "projects.html#gradebook",
+    "text": "01Python GradebookFunctions · Lists · Loops↗",
+    "url": "https://asn77s.github.io/projects.html#gradebook",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "href": "projects.html#joke-fetcher",
+    "text": "02Random Joke FetcherAPIs · JSON · File handling↗",
+    "url": "https://asn77s.github.io/projects.html#joke-fetcher",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "href": "skills.html",
+    "text": "Explore my skills ↗",
+    "url": "https://asn77s.github.io/skills.html",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "href": "about.html",
+    "text": "Read my story ↗",
+    "url": "https://asn77s.github.io/about.html",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "href": "mailto:adriannogueira2007@gmail.com",
+    "text": "adriannogueira2007@gmail.com ↗",
+    "pass": true,
+    "method": "destination inspection"
+  },
+  {
+    "page": "about.html",
+    "href": "index.html",
+    "text": "Adrian NogueiraStudent portfolio",
+    "url": "https://asn77s.github.io/index.html",
+    "pass": true
+  },
+  {
+    "page": "about.html",
+    "href": "skills.html",
+    "text": "See what I’m learning →",
+    "url": "https://asn77s.github.io/skills.html",
+    "pass": true
+  },
+  {
+    "page": "projects.html",
+    "href": "index.html",
+    "text": "Adrian NogueiraStudent portfolio",
+    "url": "https://asn77s.github.io/index.html",
+    "pass": true
+  },
+  {
+    "page": "skills.html",
+    "href": "index.html",
+    "text": "Adrian NogueiraStudent portfolio",
+    "url": "https://asn77s.github.io/index.html",
+    "pass": true
+  },
+  {
+    "page": "contact.html",
+    "href": "index.html",
+    "text": "Adrian NogueiraStudent portfolio",
+    "url": "https://asn77s.github.io/index.html",
+    "pass": true
+  },
+  {
+    "page": "contact.html",
+    "href": "mailto:adriannogueira2007@gmail.com",
+    "text": "adriannogueira2007@gmail.com",
+    "pass": true,
+    "method": "destination inspection"
+  }
+]

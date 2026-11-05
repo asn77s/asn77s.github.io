@@ -1,0 +1,27 @@
+[
+  {
+    "page": "index.html",
+    "desktop": true,
+    "phoneClosed": true
+  },
+  {
+    "page": "about.html",
+    "desktop": true,
+    "phoneClosed": true
+  },
+  {
+    "page": "projects.html",
+    "desktop": true,
+    "phoneClosed": true
+  },
+  {
+    "page": "skills.html",
+    "desktop": true,
+    "phoneClosed": true
+  },
+  {
+    "page": "contact.html",
+    "desktop": true,
+    "phoneClosed": true
+  }
+]

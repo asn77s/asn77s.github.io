@@ -1,0 +1,20 @@
+[
+  {
+    "loading": {
+      "fetchDisabled": true,
+      "saveDisabled": true,
+      "text": "Fetching a joke…"
+    },
+    "result": "What do you call cheese by itself?\nProvolone.\n",
+    "fetchEnabled": true
+  },
+  {
+    "loading": {
+      "fetchDisabled": true,
+      "saveDisabled": true,
+      "text": "Fetching a joke…"
+    },
+    "result": "Which song would an exception sing?\nCan't catch me - Avicii\n",
+    "fetchEnabled": true
+  }
+]

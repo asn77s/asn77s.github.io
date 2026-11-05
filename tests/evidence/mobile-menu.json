@@ -1,0 +1,162 @@
+[
+  {
+    "from": "index.html",
+    "to": "index.html",
+    "pass": true
+  },
+  {
+    "from": "index.html",
+    "to": "about.html",
+    "pass": true
+  },
+  {
+    "from": "index.html",
+    "to": "projects.html",
+    "pass": true
+  },
+  {
+    "from": "index.html",
+    "to": "skills.html",
+    "pass": true
+  },
+  {
+    "from": "index.html",
+    "to": "contact.html",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "closed": true,
+    "escape": true,
+    "desktop": true,
+    "backToClosed": false
+  },
+  {
+    "from": "about.html",
+    "to": "index.html",
+    "pass": true
+  },
+  {
+    "from": "about.html",
+    "to": "about.html",
+    "pass": true
+  },
+  {
+    "from": "about.html",
+    "to": "projects.html",
+    "pass": true
+  },
+  {
+    "from": "about.html",
+    "to": "skills.html",
+    "pass": true
+  },
+  {
+    "from": "about.html",
+    "to": "contact.html",
+    "pass": true
+  },
+  {
+    "page": "about.html",
+    "closed": true,
+    "escape": true,
+    "desktop": false,
+    "backToClosed": true
+  },
+  {
+    "from": "projects.html",
+    "to": "index.html",
+    "pass": true
+  },
+  {
+    "from": "projects.html",
+    "to": "about.html",
+    "pass": true
+  },
+  {
+    "from": "projects.html",
+    "to": "projects.html",
+    "pass": true
+  },
+  {
+    "from": "projects.html",
+    "to": "skills.html",
+    "pass": true
+  },
+  {
+    "from": "projects.html",
+    "to": "contact.html",
+    "pass": true
+  },
+  {
+    "page": "projects.html",
+    "closed": true,
+    "escape": true,
+    "desktop": false,
+    "backToClosed": true
+  },
+  {
+    "from": "skills.html",
+    "to": "index.html",
+    "pass": true
+  },
+  {
+    "from": "skills.html",
+    "to": "about.html",
+    "pass": true
+  },
+  {
+    "from": "skills.html",
+    "to": "projects.html",
+    "pass": true
+  },
+  {
+    "from": "skills.html",
+    "to": "skills.html",
+    "pass": true
+  },
+  {
+    "from": "skills.html",
+    "to": "contact.html",
+    "pass": true
+  },
+  {
+    "page": "skills.html",
+    "closed": true,
+    "escape": true,
+    "desktop": true,
+    "backToClosed": false
+  },
+  {
+    "from": "contact.html",
+    "to": "index.html",
+    "pass": true
+  },
+  {
+    "from": "contact.html",
+    "to": "about.html",
+    "pass": true
+  },
+  {
+    "from": "contact.html",
+    "to": "projects.html",
+    "pass": true
+  },
+  {
+    "from": "contact.html",
+    "to": "skills.html",
+    "pass": true
+  },
+  {
+    "from": "contact.html",
+    "to": "contact.html",
+    "pass": true
+  },
+  {
+    "page": "contact.html",
+    "closed": true,
+    "escape": true,
+    "desktop": false,
+    "backToClosed": true
+  }
+]

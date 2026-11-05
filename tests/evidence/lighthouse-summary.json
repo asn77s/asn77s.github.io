@@ -1,0 +1,112 @@
+[
+  {
+    "page": "index",
+    "device": "mobile",
+    "url": "https://asn77s.github.io/index.html",
+    "fetchTime": "2026-11-05T01:28:12.833Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "index",
+    "device": "desktop",
+    "url": "https://asn77s.github.io/index.html",
+    "fetchTime": "2026-11-05T01:28:12.836Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "about",
+    "device": "mobile",
+    "url": "https://asn77s.github.io/about.html",
+    "fetchTime": "2026-11-05T01:28:22.565Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "about",
+    "device": "desktop",
+    "url": "https://asn77s.github.io/about.html",
+    "fetchTime": "2026-11-05T01:28:22.568Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "projects",
+    "device": "mobile",
+    "url": "https://asn77s.github.io/projects.html",
+    "fetchTime": "2026-11-05T01:28:32.091Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "projects",
+    "device": "desktop",
+    "url": "https://asn77s.github.io/projects.html",
+    "fetchTime": "2026-11-05T01:28:32.091Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "skills",
+    "device": "mobile",
+    "url": "https://asn77s.github.io/skills.html",
+    "fetchTime": "2026-11-05T01:28:41.555Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "skills",
+    "device": "desktop",
+    "url": "https://asn77s.github.io/skills.html",
+    "fetchTime": "2026-11-05T01:28:41.663Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "contact",
+    "device": "mobile",
+    "url": "https://asn77s.github.io/contact.html",
+    "fetchTime": "2026-11-05T01:28:51.021Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  },
+  {
+    "page": "contact",
+    "device": "desktop",
+    "url": "https://asn77s.github.io/contact.html",
+    "fetchTime": "2026-11-05T01:28:51.067Z",
+    "lighthouseVersion": "13.6.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "score": 100,
+    "failedAudits": [],
+    "warnings": []
+  }
+]

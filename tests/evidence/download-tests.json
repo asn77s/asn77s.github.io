@@ -1,0 +1,30 @@
+[
+  {
+    "file": "gradebook (1).py",
+    "result": "Pass",
+    "output": "Gradebook \u2014 enter q as a name to finish and view all grades.\nStudent name: Numerical grade (0\u2013100): Hello Alex, your grade is A.\nStudent name: \nGradebook summary:\nAlex: 90 \u2014 A\n"
+  },
+  {
+    "file": "calculator.py",
+    "result": "Pass",
+    "output": "Calculator \u2014 enter q at any prompt to quit.\nFirst number: Second number: Operation (+, -, *, /): Result: 4\nFirst number: Goodbye!\n"
+  },
+  {
+    "file": "shopping_cart (1).py",
+    "result": "Pass",
+    "output": "Prices are randomized from $1.00 to $9.99 and stay fixed until reset.\n\n1. Add item\n2. Remove item\n3. View total\n4. Quit\n5. Reset cart and prices\nChoose: Frosted Flakes: $8.77 (2 available)\nEggs: $2.07 (2 available)\nsourdough loaf: $2.91 (2 available)\nMilk: $3.89 (2 available)\nApples: $1.46 (2 available)\nBananas: $8.36 (2 available)\nRice: $5.79 (2 available)\nPasta: $7.41 (2 available)\nChicken: $9.28 (2 available)\nCheese: $5.50 (2 available)\nOrange juice: $8.55 (2 available)\nYogurt: $2.40 (2 available)\nEnter the item name exactly as shown: Item added.\n\n1. Add item\n2. Remove item\n3. View total\n4. Quit\n5. Reset cart and prices\nChoose: Milk x1: $3.89\nTotal: $3.89\n\n1. Add item\n2. Remove item\n3. View total\n4. Quit\n5. Reset cart and prices\nChoose: Cart: {'Milk': 1}\nItem name to remove (one unit): Item removed.\n\n1. Add item\n2. Remove item\n3. View total\n4. Quit\n5. Reset cart and prices\nChoose: Your cart is empty.\nTotal: $0.00\n\n1. Add item\n2. Remove item\n3. View total\n4. Quit\n5. Reset cart and prices\nChoose: Have a nice day!\n"
+  },
+  {
+    "file": "joke_fetcher (1).py",
+    "result": "Pass",
+    "dependency": "requests installed in isolated test environment",
+    "output": "Why are football stadiums so cool?\nBecause every seat has a fan in it.\nJoke saved to jokes.txt!",
+    "savedText": "Why are football stadiums so cool?\nBecause every seat has a fan in it.\n"
+  },
+  {
+    "file": "jokes.txt browser download",
+    "result": "Pass",
+    "contentsMatchDisplayedJoke": true,
+    "savedText": "Did you hear that the police have a warrant out on a midget psychic ripping people off?\nIt reads \"Small medium at large.\"\n"
+  }
+]

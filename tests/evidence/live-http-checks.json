@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://asn77s.github.io/about.html",
+    "status": 200,
+    "bytes": 3504,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/assets/barcelona.png",
+    "status": 200,
+    "bytes": 25584,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/assets/calculator-output.svg",
+    "status": 200,
+    "bytes": 429,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/assets/giants.svg",
+    "status": 200,
+    "bytes": 3496,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/assets/gradebook-output.svg",
+    "status": 200,
+    "bytes": 604,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/assets/joke-workflow.svg",
+    "status": 200,
+    "bytes": 608,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/assets/kearny-high-school.jpg",
+    "status": 200,
+    "bytes": 97923,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/assets/knicks.png",
+    "status": 200,
+    "bytes": 98474,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/assets/puerto-rico.jpg",
+    "status": 200,
+    "bytes": 110362,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/assets/shopping-cart-output.svg",
+    "status": 200,
+    "bytes": 556,
+    "imageUnder500KB": true
+  },
+  {
+    "url": "https://asn77s.github.io/contact.html",
+    "status": 200,
+    "bytes": 1518,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/index.html",
+    "status": 200,
+    "bytes": 4317,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/projects.html",
+    "status": 200,
+    "bytes": 8696,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/projects/calculator.py",
+    "status": 200,
+    "bytes": 1446,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/projects/gradebook.py",
+    "status": 200,
+    "bytes": 1369,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/projects/joke_fetcher.py",
+    "status": 200,
+    "bytes": 533,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/projects/shopping_cart.py",
+    "status": 200,
+    "bytes": 2453,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/script.js",
+    "status": 200,
+    "bytes": 6693,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/skills.html",
+    "status": 200,
+    "bytes": 1775,
+    "imageUnder500KB": null
+  },
+  {
+    "url": "https://asn77s.github.io/styles.css",
+    "status": 200,
+    "bytes": 10873,
+    "imageUnder500KB": null
+  }
+]

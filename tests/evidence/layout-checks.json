@@ -1,0 +1,205 @@
+[
+  {
+    "page": "index.html",
+    "device": "phone",
+    "theme": "dark",
+    "images": [
+      {
+        "alt": "Gradebook output converting fictional numerical grades into A, B, and C.",
+        "loaded": true,
+        "src": "assets/gradebook-output.svg"
+      },
+      {
+        "alt": "Joke fetcher workflow: request, read JSON, print and save.",
+        "loaded": true,
+        "src": "assets/joke-workflow.svg"
+      }
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "about.html",
+    "device": "phone",
+    "theme": "dark",
+    "images": [
+      {
+        "alt": "Plaza in Puerto Rico with a blue fountain, red and cream railings, and a church against green hills.",
+        "loaded": true,
+        "src": "assets/puerto-rico.jpg"
+      },
+      {
+        "alt": "Front entrance of Kearny High School, with its columns, school sign, and black metal fence.",
+        "loaded": true,
+        "src": "assets/kearny-high-school.jpg"
+      },
+      {
+        "alt": "New York Giants blue NY logo with red and white outlines.",
+        "loaded": true,
+        "src": "assets/giants.svg"
+      },
+      {
+        "alt": "New York Knicks orange and blue basketball logo.",
+        "loaded": true,
+        "src": "assets/knicks.png"
+      },
+      {
+        "alt": "FC Barcelona crest with blue and red stripes and a football.",
+        "loaded": true,
+        "src": "assets/barcelona.png"
+      }
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "projects.html",
+    "device": "phone",
+    "theme": "dark",
+    "images": [
+      {
+        "alt": "Actual program output: Student 1 receives A, Student 2 receives B, and Student 3 receives C.",
+        "loaded": true,
+        "src": "assets/gradebook-output.svg"
+      },
+      {
+        "alt": "Workflow: request a joke from the API, read the JSON response, then print and save the joke.",
+        "loaded": true,
+        "src": "assets/joke-workflow.svg"
+      },
+      {
+        "alt": "Calculator sample: 10 plus 10 returns 20.",
+        "loaded": true,
+        "src": "assets/calculator-output.svg"
+      },
+      {
+        "alt": "Shopping cart sample: two boxes of Frosted Flakes cost 5 dollars 98 cents, one Eggs item costs 5 dollars 99 cents, totaling 11 dollars 97 cents.",
+        "loaded": true,
+        "src": "assets/shopping-cart-output.svg"
+      }
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "skills.html",
+    "device": "phone",
+    "theme": "dark",
+    "images": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "contact.html",
+    "device": "phone",
+    "theme": "dark",
+    "images": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "index.html",
+    "device": "phone",
+    "theme": "light",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "about.html",
+    "device": "phone",
+    "theme": "light",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "projects.html",
+    "device": "phone",
+    "theme": "light",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "skills.html",
+    "device": "phone",
+    "theme": "light",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "contact.html",
+    "device": "phone",
+    "theme": "light",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "page": "index.html",
+    "device": "laptop",
+    "theme": "dark",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "page": "about.html",
+    "device": "laptop",
+    "theme": "dark",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "page": "projects.html",
+    "device": "laptop",
+    "theme": "dark",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "page": "skills.html",
+    "device": "laptop",
+    "theme": "dark",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "page": "contact.html",
+    "device": "laptop",
+    "theme": "dark",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "page": "index.html",
+    "device": "laptop",
+    "theme": "light",
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "page": "about.html",
+    "device": "laptop",
+    "theme": "light",
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "page": "projects.html",
+    "device": "laptop",
+    "theme": "light",
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "page": "skills.html",
+    "device": "laptop",
+    "theme": "light",
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "page": "contact.html",
+    "device": "laptop",
+    "theme": "light",
+    "scrollWidth": 1280,
+    "width": 1280
+  }
+]

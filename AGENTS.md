@@ -38,5 +38,10 @@ Pages:
 - Commit after each completed task with a clear message.
 - Push the commits to GitHub.
 
+## Documentation
+- Keep README.md current with page descriptions, project run instructions, setup, testing, and deployment.
+- Maintain DEMO_GUIDE.md for explaining the JavaScript and RUBRIC_CHECKLIST.md for verified assignment readiness.
+- Keep the written report student-owned; do not claim the student demo has occurred.
+
 ## Maintenance
 Update this file whenever the website's pages, design, or rules change.

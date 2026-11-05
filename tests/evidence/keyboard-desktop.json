@@ -1,0 +1,462 @@
+[
+  {
+    "page": "index.html",
+    "skip": "main",
+    "chain": [
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "href": "about.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "href": "projects.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "href": "skills.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "href": "contact.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "href": "about.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "More about me ↗"
+      },
+      {
+        "href": "projects.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "All project details ↗"
+      },
+      {
+        "href": "projects.html#gradebook",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "01Python GradebookFunctions · Lists · Loops↗"
+      },
+      {
+        "href": "projects.html#joke-fetcher",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "02Random Joke FetcherAPIs · JSON · File handling↗"
+      },
+      {
+        "href": "skills.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Explore my skills ↗"
+      },
+      {
+        "href": "about.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Read my story ↗"
+      },
+      {
+        "href": "mailto:adriannogueira2007@gmail.com",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "adriannogueira2007@gmail.com ↗"
+      },
+      {
+        "href": null,
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "space": "true",
+    "enter": "false"
+  },
+  {
+    "page": "about.html",
+    "skip": "main",
+    "chain": [
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "href": "about.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "href": "projects.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "href": "skills.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "href": "contact.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "href": "skills.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "See what I’m learning →"
+      },
+      {
+        "href": null,
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "space": "true",
+    "enter": "false"
+  },
+  {
+    "page": "projects.html",
+    "skip": "main",
+    "chain": [
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "href": "about.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "href": "projects.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "href": "skills.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "href": "contact.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "href": null,
+        "id": "student-name",
+        "outline": "solid",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "href": null,
+        "id": "student-grade",
+        "outline": "solid",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "href": null,
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Check grade"
+      },
+      {
+        "href": "projects/gradebook.py",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Download the Python gradebook"
+      },
+      {
+        "href": null,
+        "id": "fetch-joke",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Fetch a random joke"
+      },
+      {
+        "href": "projects/joke_fetcher.py",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Download the joke fetcher"
+      },
+      {
+        "href": null,
+        "id": "calc-first",
+        "outline": "solid",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "href": null,
+        "id": "calc-second",
+        "outline": "solid",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "href": null,
+        "id": "calc-operation",
+        "outline": "solid",
+        "tag": "SELECT",
+        "text": "Add (+)Subtract (−)Multiply (×)Divide (÷)"
+      },
+      {
+        "href": null,
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Calculate"
+      },
+      {
+        "href": "projects/calculator.py",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Download the Python calculator"
+      },
+      {
+        "href": null,
+        "id": "cart-product",
+        "outline": "solid",
+        "tag": "SELECT",
+        "text": "Frosted Flakes — $3.03Eggs — $3.45sourdough loaf — $5.52Milk — $8.10Ap"
+      },
+      {
+        "href": null,
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Add one"
+      },
+      {
+        "href": null,
+        "id": "cart-remove",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Remove one"
+      },
+      {
+        "href": null,
+        "id": "cart-reset",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Reset cart & prices"
+      },
+      {
+        "href": "projects/shopping_cart.py",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Download the Python shopping cart"
+      },
+      {
+        "href": null,
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "space": "true",
+    "enter": "false"
+  },
+  {
+    "page": "skills.html",
+    "skip": "main",
+    "chain": [
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "href": "about.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "href": "projects.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "href": "skills.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "href": "contact.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "href": null,
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "space": "true",
+    "enter": "false"
+  },
+  {
+    "page": "contact.html",
+    "skip": "main",
+    "chain": [
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "href": "index.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "href": "about.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "href": "projects.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "href": "skills.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "href": "contact.html",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "href": "mailto:adriannogueira2007@gmail.com",
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "adriannogueira2007@gmail.com"
+      },
+      {
+        "href": null,
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "space": "true",
+    "enter": "false"
+  }
+]

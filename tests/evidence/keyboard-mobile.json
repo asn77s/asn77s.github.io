@@ -1,0 +1,427 @@
+[
+  {
+    "page": "index.html",
+    "skip": "main",
+    "chain": [
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "☰ Menu"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "More about me ↗"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "All project details ↗"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "01Python GradebookFunctions · Lists · Loops↗"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "02Random Joke FetcherAPIs · JSON · File handl"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Explore my skills ↗"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Read my story ↗"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "adriannogueira2007@gmail.com ↗"
+      },
+      {
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "backward": "A"
+  },
+  {
+    "page": "about.html",
+    "skip": "main",
+    "chain": [
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "☰ Menu"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "See what I’m learning →"
+      },
+      {
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "backward": "A"
+  },
+  {
+    "page": "projects.html",
+    "skip": "main",
+    "chain": [
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "☰ Menu"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "id": "student-name",
+        "outline": "solid",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "id": "student-grade",
+        "outline": "solid",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Check grade"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Download the Python gradebook"
+      },
+      {
+        "id": "fetch-joke",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Fetch a random joke"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Download the joke fetcher"
+      },
+      {
+        "id": "calc-first",
+        "outline": "solid",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "id": "calc-second",
+        "outline": "solid",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "id": "calc-operation",
+        "outline": "solid",
+        "tag": "SELECT",
+        "text": "Add (+)Subtract (−)Multiply (×)Divide (÷)"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Calculate"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Download the Python calculator"
+      },
+      {
+        "id": "cart-product",
+        "outline": "solid",
+        "tag": "SELECT",
+        "text": "Frosted Flakes — $4.11Eggs — $1.76sourdough l"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Add one"
+      },
+      {
+        "id": "cart-remove",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Remove one"
+      },
+      {
+        "id": "cart-reset",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Reset cart & prices"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Download the Python shopping cart"
+      },
+      {
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "backward": "A"
+  },
+  {
+    "page": "skills.html",
+    "skip": "main",
+    "chain": [
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "☰ Menu"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "backward": "A"
+  },
+  {
+    "page": "contact.html",
+    "skip": "main",
+    "chain": [
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Adrian NogueiraStudent portfolio"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "☰ Menu"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Home"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "About Me"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Projects"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Skills"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "Contact"
+      },
+      {
+        "id": "",
+        "outline": "solid",
+        "tag": "A",
+        "text": "adriannogueira2007@gmail.com"
+      },
+      {
+        "id": "theme-toggle",
+        "outline": "solid",
+        "tag": "BUTTON",
+        "text": "Light mode"
+      }
+    ],
+    "backward": "A"
+  }
+]

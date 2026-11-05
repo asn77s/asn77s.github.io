@@ -1,0 +1,15 @@
+{
+  "scope": "Isolated script simulation; not a live browser offline test",
+  "failure": {
+    "message": "Could not fetch a joke. Check your connection and try again—the joke service may be unavailable.",
+    "fetchEnabled": true,
+    "downloadDisabled": true
+  },
+  "recovery": {
+    "message": "Test setup\nTest punchline\n",
+    "fetchEnabled": true,
+    "downloadEnabled": true
+  },
+  "malformed": true,
+  "cleared": 3
+}

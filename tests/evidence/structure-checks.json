@@ -1,0 +1,147 @@
+[
+  {
+    "page": "skills.html",
+    "semanticLandmarks": true,
+    "headingOrder": [
+      1,
+      2,
+      2
+    ],
+    "externalStylesheets": [
+      "styles.css"
+    ],
+    "inlineStyles": [],
+    "images": []
+  },
+  {
+    "page": "index.html",
+    "semanticLandmarks": true,
+    "headingOrder": [
+      1,
+      2,
+      3,
+      3,
+      2,
+      3,
+      2,
+      2,
+      2
+    ],
+    "externalStylesheets": [
+      "styles.css"
+    ],
+    "inlineStyles": [],
+    "images": [
+      {
+        "src": "assets/gradebook-output.svg",
+        "alt": "Gradebook output converting fictional numerical grades into A, B, and C.",
+        "bytes": 604
+      },
+      {
+        "src": "assets/joke-workflow.svg",
+        "alt": "Joke fetcher workflow: request, read JSON, print and save.",
+        "bytes": 608
+      }
+    ]
+  },
+  {
+    "page": "about.html",
+    "semanticLandmarks": true,
+    "headingOrder": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "externalStylesheets": [
+      "styles.css"
+    ],
+    "inlineStyles": [],
+    "images": [
+      {
+        "src": "assets/puerto-rico.jpg",
+        "alt": "Plaza in Puerto Rico with a blue fountain, red and cream railings, and a church against green hills.",
+        "bytes": 110362
+      },
+      {
+        "src": "assets/kearny-high-school.jpg",
+        "alt": "Front entrance of Kearny High School, with its columns, school sign, and black metal fence.",
+        "bytes": 97923
+      },
+      {
+        "src": "assets/giants.svg",
+        "alt": "New York Giants blue NY logo with red and white outlines.",
+        "bytes": 3496
+      },
+      {
+        "src": "assets/knicks.png",
+        "alt": "New York Knicks orange and blue basketball logo.",
+        "bytes": 98474
+      },
+      {
+        "src": "assets/barcelona.png",
+        "alt": "FC Barcelona crest with blue and red stripes and a football.",
+        "bytes": 25584
+      }
+    ]
+  },
+  {
+    "page": "contact.html",
+    "semanticLandmarks": true,
+    "headingOrder": [
+      1,
+      2
+    ],
+    "externalStylesheets": [
+      "styles.css"
+    ],
+    "inlineStyles": [],
+    "images": []
+  },
+  {
+    "page": "projects.html",
+    "semanticLandmarks": true,
+    "headingOrder": [
+      1,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "externalStylesheets": [
+      "styles.css"
+    ],
+    "inlineStyles": [],
+    "images": [
+      {
+        "src": "assets/gradebook-output.svg",
+        "alt": "Actual program output: Student 1 receives A, Student 2 receives B, and Student 3 receives C.",
+        "bytes": 604
+      },
+      {
+        "src": "assets/joke-workflow.svg",
+        "alt": "Workflow: request a joke from the API, read the JSON response, then print and save the joke.",
+        "bytes": 608
+      },
+      {
+        "src": "assets/calculator-output.svg",
+        "alt": "Calculator sample: 10 plus 10 returns 20.",
+        "bytes": 429
+      },
+      {
+        "src": "assets/shopping-cart-output.svg",
+        "alt": "Shopping cart sample: two boxes of Frosted Flakes cost 5 dollars 98 cents, one Eggs item costs 5 dollars 99 cents, totaling 11 dollars 97 cents.",
+        "bytes": 556
+      }
+    ]
+  }
+]
