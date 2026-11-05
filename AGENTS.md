@@ -22,7 +22,7 @@ Pages:
 - Write clear, confident, natural copy. Describe specific experience without exaggeration or self-deprecating language.
 - Make the pages work on phones and computers.
 - Share styles.css and script.js across all five pages.
-- Provide an accessible mobile menu and optional light mode; black and red is the default.
+- Provide an accessible mobile menu and optional light mode; black and red is the default. Save the theme choice in browser storage across pages and visits until the visitor changes it.
 
 ## Rules
 - Use plain HTML, CSS, and JavaScript only.

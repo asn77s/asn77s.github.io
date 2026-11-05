@@ -22,10 +22,22 @@ navigation.addEventListener('keydown', (event) => {
 });
 
 const themeButton = document.querySelector('#theme-toggle');
+const themeStorageKey = 'adrian-portfolio-theme';
+try {
+  document.body.classList.toggle('light', localStorage.getItem(themeStorageKey) === 'light');
+} catch {
+  // The toggle still works when browser storage is unavailable.
+}
+themeButton.setAttribute('aria-pressed', String(document.body.classList.contains('light')));
 themeButton.hidden = false;
 themeButton.addEventListener('click', () => {
   const lightMode = document.body.classList.toggle('light');
   themeButton.setAttribute('aria-pressed', String(lightMode));
+  try {
+    localStorage.setItem(themeStorageKey, lightMode ? 'light' : 'dark');
+  } catch {
+    // Keep the toggle usable even if the preference cannot be saved.
+  }
 });
 
 const gradeForm = document.querySelector('#grade-demo');

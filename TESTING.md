@@ -153,3 +153,9 @@ Replaced the old Puerto Rico image with three personal photos supplied by Adrian
 | Deployment retest | After publishing, verify the new photos on the live About page. | Pending — local checks do not establish live deployment results. |
 
 Earlier Lighthouse scores and live About layout screenshots predate this gallery update. Fresh live layout and Lighthouse audits remain pending.
+
+## November 5 saved theme preference
+
+Local Chrome checks against the updated shared script passed. Steps: start with empty browser storage, enable Light mode, visit all five pages, refresh, close and reopen the tab, then disable Light mode and repeat navigation and refresh. Expected and actual: dark is the initial default; the selected theme persists, and aria-pressed matches on each page. With browser storage deliberately blocked, the toggle still works without preventing page interactions. JavaScript syntax and git whitespace checks passed.
+
+Live deployment retest of saved theme: Pending. Earlier Lighthouse results predate this script change; no new scores are claimed.
