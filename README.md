@@ -74,8 +74,9 @@ Then visit `http://localhost:8000/`. Stop the server with Ctrl+C. Final assignme
 - `AGENTS.md`: site design and maintenance rules.
 - `TESTING.md`: test steps, results, limitations, and retest history.
 - `tests/evidence/`: live-site screenshots, audit reports, and verification records.
-- `DEMO_GUIDE.md`: practice sequence and explanations of the JavaScript.
 - `RUBRIC_CHECKLIST.md`: evidence mapped to the assignment criteria.
+- `reports/Adrian_Nogueira_Website_Report.docx`: two-page assisted report draft with features, challenges, a corrected Codex mistake, and browser-emulated phone/laptop screenshots. Adrian should review it before submission; replace screenshots if physical-device captures are required.
+- `reports/REPORT.md`: editable report text and screenshot provenance, available alongside the source code in the project folder.
 
 ## Testing and deployment
 
@@ -87,4 +88,4 @@ Lighthouse 13.6.0 accessibility audits run on November 4, 2026 returned **100 fo
 
 Personal photos were supplied by Adrian. Project illustrations show sample output or workflows. Team image sources are listed in [assets/sports-credits.md](assets/sports-credits.md); team marks belong to their respective owners.
 
-The portfolio was developed with Codex assistance. Adrian should review the code and use the demo guide to explain its behavior in his own words. No phone number or home address is published.
+The portfolio was developed with Codex assistance. Adrian should review the code and explain its behavior in his own words during the in-person presentation. No phone number or home address is published.

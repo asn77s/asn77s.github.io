@@ -126,3 +126,18 @@ No unresolved website defect was observed in the executed checks. These tests do
 ## Mobile download follow-up
 
 Revision `e59c70e` adds a phone-sized download dialog so visitors can choose the working browser demo instead of opening Python source in a viewer. Live verification is recorded in `tests/evidence/mobile-download-choice.json` and its screenshot. This does not make Python files executable in a phone’s file viewer. Earlier Lighthouse scores predate this dialog addition.
+
+## November 5 report and local source review
+
+Documentation-only follow-up; website implementation files were not changed. These supplemental local checks do not count as new live-site passes or new Lighthouse audits.
+
+| Check | Steps and expected result | Actual result |
+| --- | --- | --- |
+| Local source structure and links | Parse all five HTML pages; verify one h1, semantic regions, shared styles.css/script.js, no inline styles, existing local targets and fragment IDs, image alt text and image sizes below 500 KB. | Pass — all five pages passed; no missing local link targets or anchors. |
+| Program source checks | Run Node syntax check for script.js and parse all four Python programs. | Pass — JavaScript and all Python files passed syntax checks. |
+| Report correction example | Run calculator with 12, 3, /, q and gradebook with Alex, 90, q. Expect 4 and a grade summary. | Pass — calculator printed Result: 4; gradebook printed Alex: 90 and a summary. |
+| Report layout | Render the Word report and inspect every page. Expect exactly two pages with readable prose, two screenshots, and no clipping. | Pass — two rendered pages inspected; screenshot captions explicitly identify browser emulation. |
+| Editor access | Locate and open the project folder with Visual Studio Code. | Not verified — all source files exist locally, but macOS could not find an application named Visual Studio Code. No source files were moved or removed. |
+| Student report review | Adrian checks first-person statements and screenshot acceptability before submission. | Pending — assisted draft provided; no student review or presentation is claimed. |
+
+The original 57 live-test results remain historical November 4 results. Full live UI checks and Lighthouse were not rerun for this documentation-only task.
