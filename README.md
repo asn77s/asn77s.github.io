@@ -9,7 +9,7 @@ A personal portfolio for Adrian Nogueira, a first-year NJIT student interested i
 - **Home:** introduction, featured projects, education, interests, and email.
 - **About Me:** background, NJIT and Kearny High School education, DECA membership, family roots with a responsive three-photo Puerto Rico gallery, and sports interests.
 - **Projects:** four Python projects with descriptions, example images, interactive JavaScript demos, and downloadable source.
-- **Skills:** beginner Python and GitHub experience.
+- **Skills:** expert Microsoft Word, Excel, and PowerPoint skills, plus beginner Python and GitHub experience.
 - **Contact:** a public email link. There is no backend or contact form.
 
 ## Features and design

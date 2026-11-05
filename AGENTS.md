@@ -10,7 +10,7 @@ Pages:
 - Mobile downloads offer an accessible choice to try the matching browser demo or download Python source, with a clear explanation that phones need a Python app to run .py files.
 - Downloads: calculator and gradebook accept user input in the terminal; all four projects include run instructions.
 - Shopping Cart: 12 products with random prices from $1.00 to $9.99, fixed per session; reset clears the cart, restores stock, and rerolls prices in both Python and JavaScript.
-- Skills: beginner Python and GitHub experience.
+- Skills: expert Microsoft Word, Excel, and PowerPoint skills, plus beginner Python and GitHub experience.
 - Contact: public email link.
 
 ## Design

@@ -159,3 +159,7 @@ Earlier Lighthouse scores and live About layout screenshots predate this gallery
 Local Chrome checks against the updated shared script passed. Steps: start with empty browser storage, enable Light mode, visit all five pages, refresh, close and reopen the tab, then disable Light mode and repeat navigation and refresh. Expected and actual: dark is the initial default; the selected theme persists, and aria-pressed matches on each page. With browser storage deliberately blocked, the toggle still works without preventing page interactions. JavaScript syntax and git whitespace checks passed.
 
 Live deployment retest of saved theme: Pending. Earlier Lighthouse results predate this script change; no new scores are claimed.
+
+## November 5 Microsoft Office skills
+
+Added Microsoft Word, Excel, and PowerPoint at Expert level, as supplied by Adrian. Local Chrome verification at 390 and 1366 px passed: five skill sections, three Expert labels, no horizontal overflow, and all five navigation destinations returned HTTP 200. Both page screenshots were visually inspected. Live deployment retest and fresh Lighthouse scores remain pending; prior audits predate this content update.
