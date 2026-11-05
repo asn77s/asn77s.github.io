@@ -133,3 +133,16 @@ button:disabled { opacity: .55; cursor: not-allowed; }
 @media (max-width: 480px) { .demo-fields { grid-template-columns: 1fr; } }
 .demo select { width: 100%; min-width: 0; padding: .7rem; font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; }
 .demo-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+
+/* Keep personal photos compact instead of enlarging low-resolution uploads. */
+.about section > figure { max-width: 520px; }
+.about section > figure img { border: 1px solid var(--line); }
+.sports-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; max-width: 900px; margin-top: 1.5rem; }
+.sports-grid figure { margin: 0; min-width: 0; border: 1px solid var(--line); background: var(--soft); border-radius: 8px; overflow: hidden; }
+.team-image { display: grid; place-items: center; height: 220px; padding: 1.5rem; background: #fff; }
+.team-image img { width: 100%; height: 100%; max-width: 180px; max-height: 180px; object-fit: contain; border-radius: 0; }
+.sports-grid figcaption { padding: 1rem; margin: 0; }
+.sports-grid strong { display: block; color: var(--text); }
+.sports-grid figcaption span { display: block; font-size: .8rem; }
+@media (max-width: 600px) { .sports-grid { grid-template-columns: 1fr; max-width: 360px; } }
+@media (max-width: 760px) { .hero-notes dl { grid-template-columns: repeat(2, 1fr); } }
