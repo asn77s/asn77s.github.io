@@ -19,7 +19,7 @@ Checked November 4, 2026. This maps evidence to the supplied rubric; it is not a
 | Keyboard access | Tab/Shift+Tab, visible focus, skip links, Enter/Space, menu Escape, forms, and download activation checked; Adrian separately confirmed external email-link operation. |
 | Lighthouse Accessibility | 100 on all five pages for both Mobile and Desktop. Full live-site reports saved. |
 | TESTING.md format and coverage | 57 cases with IDs, purpose, steps, expected results, and actual status; covers the Part 4 categories. |
-| Live results and fixes/retests | 56 passed; 1 manual check incomplete. The download improvement and resize-test timing resolution are recorded in the history. Finish T53 before claiming every test is complete. |
+| Live results and fixes/retests | 57 recorded cases passed, including Adrian’s live-device confirmations for offline joke recovery and the email link. The download improvement and resize-test timing resolution are recorded in the history. |
 | GitHub Pages and assets | Live pages, styles, scripts, images, and downloads returned HTTP 200. |
 | README | Includes live URL, pages, features, project usage, local preview, structure, testing, deployment, and image sources. |
 | AGENTS.md | Describes current pages, design, content/privacy rules, and commit/test workflow. |
@@ -29,7 +29,7 @@ Checked November 4, 2026. This maps evidence to the supplied rubric; it is not a
 
 ## Before submission
 
-- Finish the remaining offline/recovery check in TESTING.md and record their actual results.
+- All 57 recorded checks are complete. Rerun affected checks after any further website changes.
 - Practice the demo using DEMO_GUIDE.md and open script.js to explain each feature.
 - Complete the written report using the assignment’s four required parts.
 - Open the exact live address on the presentation devices: https://asn77s.github.io/. A search-engine result is not required for GitHub Pages hosting to work.
