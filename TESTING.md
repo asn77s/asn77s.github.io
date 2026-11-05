@@ -8,7 +8,7 @@ Prepared and live checks started: **November 4, 2026 (America/New_York)**.
 Website revisions under test: **49d639e** for the initial run and **4f0b2d3** for interactive downloads and updated instructions. The project page was rechecked after deployment.
 Environment: macOS; Codex in-app browser for live UI tests (browser version not exposed), 390 × 844 phone viewport and 1280–1366 px laptop viewports. Lighthouse used official CLI version 13.6.0 and Headless Chrome 156.0.0.0 against live HTTPS pages, with mobile and desktop presets. UTC timestamps in JSON correspond to November 4 in America/New_York. Screenshots and browser-observed records are saved under `tests/evidence/`.
 
-This is a test record with two explicitly documented manual checks still incomplete. **Not run** means no result has been verified and must be replaced with Pass or Fail after executing the test. Earlier localhost and Python unit checks are not counted as live-site passes here. No live-site product failure was observed in the executed cases; untested cases may still reveal issues.
+This is a test record with one explicitly documented manual check still incomplete. **Not run** means no result has been verified and must be replaced with Pass or Fail after executing the test. Earlier localhost and Python unit checks are not counted as live-site passes here. No live-site product failure was observed in the executed cases; untested cases may still reveal issues.
 
 ## How to finish the tests
 
@@ -79,14 +79,16 @@ There is no contact form; email-link tests apply instead. Input validation tests
 | T52 | Joke fetcher: file download | Fetch successfully, click Download jokes.txt, and open the downloaded file. | File contains the displayed setup and punchline on separate lines. | Pass — keyboard-activated download created jokes.txt; its contents exactly matched the displayed two-line joke. |
 | T53 | Joke fetcher: network failure and recovery | Load Projects online. In Chrome DevTools Network choose Offline, then fetch a joke. Wait up to 10 seconds. Restore online and fetch again. | Helpful error, download disabled, fetch enabled for retry; online retry succeeds. Restore the Network setting afterward. | Not run in live offline mode — desktop Chrome controls are unavailable to the assistant. A separate isolated-script test passed simulated offline/malformed-response failures and successful retry; that does not replace this live offline test. |
 | T54 | Project source downloads | On the live Projects page, click each of the four Python download links. Open each saved file and run it in a terminal with Python 3. Install requests for the joke script as instructed. | All four files download and run: gradebook accepts names/scores and prints a summary, calculator accepts numbers/operations, cart accepts menu input, and joke fetcher prints and saves a joke. | Pass — all four links downloaded files using Enter. Downloaded gradebook accepted Alex/90 and produced a summary; calculator returned 4 for 12/3; cart added/removed Milk and returned to $0.00; joke script fetched and saved text after installing its documented dependency. |
-| T55 | Content links, email, and brand | On every page, test the brand and each non-menu internal link, including Home project previews. Inspect email destinations on Home and Contact; open the mail app without sending a message. | Internal links reach the correct page or project section; email targets adriannogueira2007@gmail.com. | Partial — every internal content/brand link passed keyboard activation; both email destinations are correct. Opening the external mail app remains unverified because desktop app-control permission is unavailable. |
+| T55 | Content links, email, and brand | On every page, test the brand and each non-menu internal link, including Home project previews. Inspect email destinations on Home and Contact; open the mail app without sending a message. | Internal links reach the correct page or project section; email targets adriannogueira2007@gmail.com. | Pass — internal content/brand links passed keyboard activation and email destinations were checked; Adrian subsequently confirmed the email link works on his device. Device/browser details were not supplied. |
 | T56 | Images and alternative text | On every live page, scroll to load all images. Inspect displayed images, alt text, and transferred image file sizes in DevTools Network. | All images load, have descriptive alt text, remain below 500 KB, and are not stretched. | Pass — all live images loaded and had descriptive alt text. HTTP checks confirmed every website image is below 500 KB; screenshots showed proportions preserved. |
+
+| T57 | Phone Python download choices | At phone width, activate each of the four Python download links. Check the dialog’s title and source link, then choose Try in browser. Reopen and press Escape. | Each choice refers to the correct project; Try in browser focuses its demo, and Escape dismisses the dialog. | Pass — verified all four choices on the live site at 390 × 844 after e59c70e. Focus reached student-name, fetch-joke, calc-first, and cart-product respectively. Source download, Cancel, light mode, and direct desktop download also passed local preview checks. |
 
 ## Execution summary
 
-- Total cases: **56**.
-- Verified live-site passes: **54**.
-- Pending/partial: **2** (T53 live offline/recovery; T55 external email-app launch).
+- Total cases: **57**.
+- Passed cases: **56** (55 browser-verified cases; T55 completed with Adrian’s device confirmation).
+- Pending: **1** (T53 live offline/recovery).
 - Recorded product failures: **0** (does not imply pending cases pass).
 - Navigation coverage completed: **25/25 main navigation links** at the browser’s current desktop layout.
 - Lighthouse: **5/5 pages audited**, Mobile **100** and Desktop **100** on every page.
@@ -100,7 +102,7 @@ Update these counts after further testing.
 | Download usability / T54 | Calculator and gradebook originally ran fixed examples instead of accepting visitors’ values. | Commit `4f0b2d3` added input loops, validation, quitting, and updated run instructions. | Pass — downloaded the deployed files and ran custom inputs successfully; see download-tests.json. |
 | T16–T20 test timing | Immediate resize observations sometimes read the old navigation state before the browser delivered the resize event. | Corrected the test to wait for the expected visible/hidden state; no website code change was needed. Original observations retained in mobile-menu.json. | Pass on all five pages; see resize-retest.json. |
 | T53 environment limitation | Desktop Chrome controls could not be opened because computer-use permission was not granted. In-app browser has no exposed offline toggle. | Tested error/recovery logic separately with simulated fetch failures; retained the live offline test as pending. | Live test still required; do not count the simulation as a live pass. |
-| T55 environment limitation | External mail-app launch could not be verified through available app controls. | Verified the visible address, mailto destination, focus access, and all internal links. | External mail-app check still required on a configured device; no email was sent. |
+| T55 environment limitation | External mail-app launch could not be verified through available app controls. | Verified the visible address, mailto destination, focus access, and all internal links. | Adrian subsequently confirmed the email link works on his device; no email was sent by the assistant. |
 
 ## Evidence
 
@@ -114,9 +116,13 @@ Update these counts after further testing.
 - `joke-error-simulation.json`: isolated-script failure/recovery tests, explicitly not live browser evidence.
 - `console-checks.json`: no observed error-level browser console messages on any page during the recorded normal loads.
 
-## Finish these two manual checks
+## Finish this manual check
 
 1. **T53:** In Chrome DevTools > Network, choose Offline after loading Projects. Fetch a joke and confirm the friendly error and disabled download button. Restore No throttling/online, fetch again, and confirm recovery. Record the actual results.
-2. **T55:** On a device with an email app configured, activate the email link with Enter. Confirm a compose window addresses Adrian correctly, then close it without sending. Record the result.
+**T55 is complete:** Adrian reported that the email link works. His joke confirmation was specifically for normal online operation, so it does not close T53.
 
 No unresolved website defect was observed in the executed checks. These tests do not guarantee a grade or replace the student’s own demo. The downloaded calculator and gradebook are now interactive; the earlier outstanding implementation request is complete.
+
+## Mobile download follow-up
+
+Revision `e59c70e` adds a phone-sized download dialog so visitors can choose the working browser demo instead of opening Python source in a viewer. Live verification is recorded in `tests/evidence/mobile-download-choice.json` and its screenshot. This does not make Python files executable in a phone’s file viewer. Earlier Lighthouse scores predate this dialog addition.

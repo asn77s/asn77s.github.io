@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Download the Python gradebook",
+    "open": true,
+    "source": "projects/gradebook.py",
+    "focus": "student-name"
+  },
+  {
+    "name": "Download the joke fetcher",
+    "open": true,
+    "source": "projects/joke_fetcher.py",
+    "focus": "fetch-joke"
+  },
+  {
+    "name": "Download the Python calculator",
+    "open": true,
+    "source": "projects/calculator.py",
+    "focus": "calc-first"
+  },
+  {
+    "name": "Download the Python shopping cart",
+    "open": true,
+    "source": "projects/shopping_cart.py",
+    "focus": "cart-product"
+  }
+]
