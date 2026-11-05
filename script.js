@@ -110,14 +110,24 @@ if (calculatorForm) {
 
 const cartForm = document.querySelector('#cart-demo');
 if (cartForm) {
-  const products = [
-    { name: 'Frosted Flakes', price: 299, quantity: 0 },
-    { name: 'Eggs', price: 599, quantity: 0 },
-    { name: 'sourdough loaf', price: 399, quantity: 0 }
-  ];
+  const productNames = ['Frosted Flakes', 'Eggs', 'sourdough loaf', 'Milk', 'Apples', 'Bananas', 'Rice', 'Pasta', 'Chicken', 'Cheese', 'Orange juice', 'Yogurt'];
+  const newProducts = () => productNames.map(name => ({
+    name, price: Math.floor(Math.random() * 900) + 100, quantity: 0
+  }));
+  let products = newProducts();
+  const productSelect = document.querySelector('#cart-product');
+  function renderOptions() {
+    productSelect.replaceChildren();
+    products.forEach((item, index) => {
+      const option = document.createElement('option');
+      option.value = String(index);
+      option.textContent = `${item.name} — $${(item.price / 100).toFixed(2)}`;
+      productSelect.append(option);
+    });
+  }
   const message = document.querySelector('#cart-message');
   function renderCart() {
-    const lines = products.map(item => `${item.name}: ${item.quantity} in cart · ${2 - item.quantity} on shelf`);
+    const lines = products.map(item => `${item.name} ($${(item.price / 100).toFixed(2)}): ${item.quantity} in cart · ${2 - item.quantity} on shelf`);
     const total = products.reduce((sum, item) => sum + item.price * item.quantity, 0);
     document.querySelector('#cart-summary').textContent = `${lines.join('\n')}\n\nTotal: $${(total / 100).toFixed(2)}`;
   }
@@ -135,9 +145,11 @@ if (cartForm) {
   cartForm.addEventListener('submit', event => { event.preventDefault(); changeCart(1); });
   document.querySelector('#cart-remove').addEventListener('click', () => changeCart(-1));
   document.querySelector('#cart-reset').addEventListener('click', () => {
-    products.forEach(item => { item.quantity = 0; });
-    message.textContent = 'Cart reset. All products are back on the shelf.';
+    products = newProducts();
+    renderOptions();
+    message.textContent = 'Cart reset. New prices generated and all products restocked.';
     renderCart();
   });
+  renderOptions();
   renderCart();
 }

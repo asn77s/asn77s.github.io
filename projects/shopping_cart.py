@@ -1,12 +1,16 @@
 """Shopping cart practice. Prices use integer cents for exact totals."""
 
 
+import random
+
+
+PRODUCT_NAMES = ['Frosted Flakes', 'Eggs', 'sourdough loaf', 'Milk', 'Apples', 'Bananas', 'Rice', 'Pasta', 'Chicken', 'Cheese', 'Orange juice', 'Yogurt']
+
+
 def make_shelf():
-    return {
-        "Frosted Flakes": {"price": 299, "quantity": 2},
-        "Eggs": {"price": 599, "quantity": 2},
-        "sourdough loaf": {"price": 399, "quantity": 2},
-    }
+    # Generate prices once per session, from $1.00 to $9.99.
+    return {name: {"price": random.randint(100, 999), "quantity": 2}
+            for name in PRODUCT_NAMES}
 
 
 def add_item(shelf, cart, name):
@@ -36,8 +40,9 @@ def total_cost(shelf, cart):
 def main():
     shelf = make_shelf()
     cart = {}
+    print("Prices are randomized from $1.00 to $9.99 and stay fixed until reset.")
     while True:
-        choice = input("\n1. Add item\n2. Remove item\n3. View total\n4. Quit\nChoose: ").strip()
+        choice = input("\n1. Add item\n2. Remove item\n3. View total\n4. Quit\n5. Reset cart and prices\nChoose: ").strip()
         if choice == "1":
             for name, item in shelf.items():
                 print(f"{name}: ${item['price'] / 100:.2f} ({item['quantity']} available)")
@@ -56,8 +61,12 @@ def main():
         elif choice == "4":
             print("Have a nice day!")
             break
+        elif choice == "5":
+            shelf = make_shelf()
+            cart = {}
+            print("Cart reset. New prices generated and stock restored.")
         else:
-            print("Invalid input. Choose 1, 2, 3, or 4.")
+            print("Invalid input. Choose 1, 2, 3, 4, or 5.")
 
 
 if __name__ == "__main__":
