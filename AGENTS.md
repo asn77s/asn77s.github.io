@@ -42,7 +42,7 @@ Pages:
 ## Documentation
 - Keep README.md current with page descriptions, project run instructions, setup, testing, and deployment.
 - Maintain RUBRIC_CHECKLIST.md for verified assignment readiness. Do not create a classroom presentation guide; Adrian will handle the presentation in person.
-- Keep the written report student-owned. At Adrian's request, an assisted two-page draft is saved in reports/ for his review; it covers features, challenges, a corrected Codex mistake, and clearly labeled browser-emulated phone/laptop screenshots. Do not claim student review or the student demo has occurred.
+- Keep the written report outside the website repository. Adrian owns and reviews the report; do not claim student review or the classroom presentation has occurred.
 
 ## Maintenance
 Update this file whenever the website's pages, design, or rules change.

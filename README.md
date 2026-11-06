@@ -75,8 +75,6 @@ Then visit `http://localhost:8000/`. Stop the server with Ctrl+C. Final assignme
 - `TESTING.md`: test steps, results, limitations, and retest history.
 - `tests/evidence/`: live-site screenshots, audit reports, and verification records.
 - `RUBRIC_CHECKLIST.md`: evidence mapped to the assignment criteria.
-- `reports/Adrian_Nogueira_Website_Report.docx`: two-page assisted report draft with features, challenges, a corrected Codex mistake, and browser-emulated phone/laptop screenshots. Adrian should review it before submission; replace screenshots if physical-device captures are required.
-- `reports/REPORT.md`: editable report text and screenshot provenance, available alongside the source code in the project folder.
 
 ## Testing and deployment
 

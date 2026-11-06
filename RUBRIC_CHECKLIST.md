@@ -25,11 +25,11 @@ Checked November 4, 2026. This maps evidence to the supplied rubric; it is not a
 | AGENTS.md | Describes current pages, design, content/privacy rules, and commit/test workflow. |
 | Commits over multiple days | Existing history includes October 19, October 22, and November 4, 2026, with focused change messages. Dates were not altered. |
 | Student demo | Adrian will handle the presentation in person. Completion has not been verified here. |
-| Written report | November 5 follow-up: at Adrian's request, a two-page assisted Word draft is saved in reports/Adrian_Nogueira_Website_Report.docx. It contains the four requested sections and labeled browser-emulated phone/laptop screenshots. Adrian's review remains pending; physical-device screenshots are still needed if emulation does not satisfy the professor's requirement. |
+| Written report | Handled separately from the website repository; Adrian reviews and submits it himself. Completion is not verified here. |
 
 ## Before submission
 
 - All 57 recorded checks are complete. Rerun affected checks after any further website changes.
 - Present the website in person and explain the JavaScript in your own words.
-- Review the two-page report draft against your experience and the assignment’s four required parts. Confirm whether browser-emulated screenshots are accepted; replace them with physical-device captures if needed.
+- Review your written report against the assignment’s four required parts before submission.
 - Open the exact live address on the presentation devices: https://asn77s.github.io/. A search-engine result is not required for GitHub Pages hosting to work.

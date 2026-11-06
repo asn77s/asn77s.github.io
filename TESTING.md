@@ -169,3 +169,7 @@ Added Microsoft Word, Excel, and PowerPoint at Expert level, as supplied by Adri
 Adrian reported light mode reverting on page navigation. Fresh live Chrome checks passed for the deployed shared script: light and dark preferences persisted across all five pages and reloads; light mode survived closing/reopening a tab; aria-pressed matched, and toggling still worked with storage blocked. This does not reproduce or resolve Adrian's browser-specific observation by itself. An outdated cached script is a possible cause, not a confirmed diagnosis.
 
 All five HTML pages now request script.js?v=89f7d56 so cached copies of the earlier unversioned script are bypassed. Static verification: all five script URLs match and the shared script exists. User-device retest after deployment: Pending. No new Lighthouse scores are claimed.
+
+## November 5 report removal
+
+Removed the report files from the website repository at Adrian’s request and removed documentation links to them. A Word copy was retained outside the repository. Verified that reports/ no longer exists and README contains no report file links. Website HTML, CSS, and JavaScript were unchanged; no new live UI tests or Lighthouse audits were run.
