@@ -80,7 +80,7 @@ Then visit `http://localhost:8000/`. Stop the server with Ctrl+C. Final assignme
 
 Changes are committed and pushed to `main`; GitHub Pages publishes the website. The live site is the final verification target. See [TESTING.md](TESTING.md) for the recorded checks and any remaining manual checks.
 
-Lighthouse 13.6.0 accessibility audits run on November 4, 2026 returned **100 for all five pages on both mobile and desktop**. Full JSON reports are in [tests/evidence/lighthouse](tests/evidence/lighthouse). Automated scores complement, rather than replace, keyboard and visual testing.
+Lighthouse 13.6.0 accessibility audits rerun on November 5, 2026 returned **100 for all five pages on both mobile and desktop**. Full JSON reports are in [tests/evidence/lighthouse](tests/evidence/lighthouse). Automated scores complement, rather than replace, keyboard and visual testing.
 
 ## Image sources and development
 

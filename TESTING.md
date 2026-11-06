@@ -173,3 +173,21 @@ All five HTML pages now request script.js?v=89f7d56 so cached copies of the earl
 ## November 5 report removal
 
 Removed the report files from the website repository at Adrian’s request and removed documentation links to them. A Word copy was retained outside the repository. Verified that reports/ no longer exists and README contains no report file links. Website HTML, CSS, and JavaScript were unchanged; no new live UI tests or Lighthouse audits were run.
+
+## November 5 current live assignment recheck
+
+Checked the current live site in Chrome at 390 × 844 and 1366 × 844, in both themes. All five pages passed one-h1 checks; all 25 main navigation destinations returned HTTP 200. Images loaded with alt text and sizes below 500 KB. Document widths matched viewport widths, and menu opening/Escape behavior passed on every page. Local source checks also confirmed semantic regions, shared stylesheet/script URLs, relative local links and anchors, and no inline styles.
+
+Live project smoke checks passed: Alex/90 produced A, 12/3 produced 4, cart add/reset worked, all four source URLs returned HTTP 200, and the joke service returned a setup and punchline. No uncaught page JavaScript errors were observed. The live theme test passed for light/dark navigation across all five pages, refreshes, and a reopened tab; controls also worked with storage blocked. This fresh-session result does not prove the state of Adrian’s existing browser cache.
+
+Fresh Lighthouse Accessibility results on November 5, 2026 America/New_York (JSON timestamps are November 6 UTC):
+
+| Page | Mobile | Desktop |
+| --- | --- | --- |
+| Home | 100 | 100 |
+| About | 100 | 100 |
+| Projects | 100 | 100 |
+| Skills | 100 | 100 |
+| Contact | 100 | 100 |
+
+Full reports and the summary in tests/evidence were refreshed. Lighthouse 13.6.0, Chrome 156.0.0.0; no failed audits or run warnings. Earlier November 4 results remain documented above. These are supplemental rechecks, not a claim that all 57 historical procedures were rerun. Physical-device screenshots, report submission, and the classroom presentation remain student responsibilities and are not marked complete.

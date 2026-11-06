@@ -1,6 +1,6 @@
 # Assignment readiness checklist
 
-Checked November 4, 2026. This maps evidence to the supplied rubric; it is not a promised score.
+Originally checked November 4, 2026; current live recheck November 5, 2026. This maps evidence to the supplied rubric; it is not a promised score.
 
 | Rubric area | Status and evidence |
 | --- | --- |
@@ -17,7 +17,7 @@ Checked November 4, 2026. This maps evidence to the supplied rubric; it is not a
 | Browser console | No error-level console messages observed during normal live-page loads. Deliberately simulated network errors are a separate test. |
 | Image alt text and size | All website images have descriptive alt text and are below 500 KB. |
 | Keyboard access | Tab/Shift+Tab, visible focus, skip links, Enter/Space, menu Escape, forms, and download activation checked; Adrian separately confirmed external email-link operation. |
-| Lighthouse Accessibility | 100 on all five pages for both Mobile and Desktop. Full live-site reports saved. |
+| Lighthouse Accessibility | 100 on all five pages for both Mobile and Desktop. Fresh November 5 live-site reports saved. |
 | TESTING.md format and coverage | 57 cases with IDs, purpose, steps, expected results, and actual status; covers the Part 4 categories. |
 | Live results and fixes/retests | 57 recorded cases passed, including Adrian’s live-device confirmations for offline joke recovery and the email link. The download improvement and resize-test timing resolution are recorded in the history. |
 | GitHub Pages and assets | Live pages, styles, scripts, images, and downloads returned HTTP 200. |
@@ -33,3 +33,7 @@ Checked November 4, 2026. This maps evidence to the supplied rubric; it is not a
 - Present the website in person and explain the JavaScript in your own words.
 - Review your written report against the assignment’s four required parts before submission.
 - Open the exact live address on the presentation devices: https://asn77s.github.io/. A search-engine result is not required for GitHub Pages hosting to work.
+
+## November 5 recheck
+
+Current live navigation, image loading/sizes, menu open/Escape, layout widths in both themes, project smoke checks, source download availability, and saved theme behavior passed. Fresh Accessibility scores are 100 for every page on Mobile and Desktop. Source structure and local links passed. Full original keyboard and input-edge-case procedures were not all rerun; see TESTING.md for scope. No missing website criterion was found against this saved rubric mapping. The original professor assignment text is not stored in this repository; the report requirements supplied in chat are handled separately.
