@@ -1,0 +1,7 @@
+# Local system and Python-generated files
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Personal written report belongs outside the website repository
+/reports/
